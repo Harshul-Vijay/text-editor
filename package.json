@@ -1,0 +1,36 @@
+{
+  "name": "text-editor",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Stencil App Starter",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "dependencies": {
+    "@stencil/core": "^1.9.0-6",
+    "@stencil/router": "^1.0.1",
+    "@stencil/sass": "^1.1.1",
+    "path": "^0.12.7",
+    "rxjs": "^6.5.3"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/gulp": "^4.0.6",
+    "@types/gulp-rename": "0.0.33",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-terser": "^1.2.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "rollup": "^1.27.8",
+    "rollup-plugin-typescript": "^1.0.1",
+    "workbox-build": "4.3.1"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "collection": "dist/collection/collection-manifest.json",
+  "types": "dist/types/components.d.ts"
+}
